@@ -12,13 +12,27 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier":"com.haramuserapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package":"com.haramuserapp",
+      "config":{
+        "googleMaps":{
+          "apiKey":"AIzaSyDdUQ1EIQJB46n2RSusQro1qP3Pd4mGZcA"
+        },
+        "permissions":[
+          "ACCESS_COARSE_LOCATION",
+          "ACCESS_FINE_LOCATION",
+          "FOREGROUND_SERVICE"
+
+        ]
       }
+      
     },
     "web": {
       "favicon": "./assets/favicon.png"
